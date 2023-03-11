@@ -32,11 +32,10 @@ header{
 .order{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
 .sub-div{
-    gap: 56px;
+    gap: 60px;
 }
 .div-search{
    width: 600px;
@@ -50,12 +49,25 @@ header{
    border-radius: 2px;
    border-color: transparent;
 }
+.div-down{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .placeholder-search{
     width: 237px;
     height: 23px;
     left: 1px;
     border-radius: 2px;
     border-color: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center
 }
 .div-button{
     width: 46px;
@@ -73,3 +85,49 @@ header{
     border-radius: 2px;
     border-color: transparent;
 }
+.div-options{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 6px;
+}
+.buttons-letters{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #33333399;
+    align-items: center;
+    background-color: transparent;
+    border-color: transparent;
+}
+.button-one{
+    width: 120px;
+    height: 20px;
+    left: 18px;
+    color:  #333333;
+    background-color: transparent;
+    border-color: transparent;
+}
+.select-categorias{
+    width: 79px;
+    height: 22px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.div-buttons-two{
+    padding-right: 50px;
+}
+.buttons-two{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color:  #333333;
+    align-items:center;
+    background-color: transparent;
+    border-color: transparent;
+}
+
