@@ -21,6 +21,9 @@ header{
     justify-content: center;
     align-items: center;
 }
+main{
+    background-color: #EBEBEB;
+}
 .div-center{
     height: 92px;
     width: 1200px;
@@ -130,4 +133,73 @@ header{
     background-color: transparent;
     border-color: transparent;
 }
+.div-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}  
+.div-novedades{
+    display: inline-block;
+}  
+.div-buttons-novedades{
+    position: absolute;
+    top: 410px;
+    left: 727px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 5px;
+}
+.buttons-novedades{
+    width: 6px;
+    height: 6px;
+    left: 2px;
+    border-radius: 3px;
+    border-width: 1.5px;
+    border-color: white;
+    background: #00000040;
+}
+.div-pay{
+    background-color: #FFFFFF;
+    width: 1184px;
+    height: 90px;
+    top: 380px;
+    left: 164px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div-button-pay{
+    width: 305px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+}
+.div-pay-text{
+    display: flex;
+    flex-direction: column;
+}
+.letters-pay1{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    align-items:center
+}
+.letters-pay2{
+    font-family:'Roboto';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    align-items:center;
+    color: #3483FA;
+}
+
 
