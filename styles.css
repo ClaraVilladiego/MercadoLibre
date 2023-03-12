@@ -226,18 +226,19 @@ main{
 .div-cards{
     width: 1200px;
     height: 415 px;
-    border-radius: 4px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .div-card{
+    border-radius: 4px;
     background-color: #FFFFFF;
 }
 .div-card-precio{
     width: 224px;
     height: 130px;
     top: 224px;
+    border-top: 1px solid #EDEDED;
     display: flex;
     flex-direction: column;
     padding: 19px 16px;
@@ -276,4 +277,130 @@ main{
     align-items:start;
     color: #00A650;
 }
-
+.div-level6{
+    width: 1180px;
+    height: 340px;
+    top: 980px;
+    left: 166px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+.div-title{
+    height: 87px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title1{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    align-items:start;
+    color: #FFFFFF;
+    padding: 24px;
+}
+.title2{
+    padding: 24px;
+    display: flex;
+}
+.div-precios{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+}
+.precio1{
+    font-family:'Roboto';
+    font-style: medium;
+    font-weight: light;
+    font-size: 14px;
+    line-height: 14px;
+    align-items:start;
+    color: #FFFFFF;
+    text-decoration:line-through;
+}
+.precio2{
+    font-family:'Roboto';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    align-items:start;
+    color: #FFFFFF;
+}
+.precio3{
+    font-family:'Roboto';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    align-items:start;
+    color: #FFFFFF;
+}
+.div-planes{
+    width: 1180;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+}
+.text-level6{          
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+    align-items:start;
+    color: #000000; 
+    padding: 24px 20px;
+}
+.planes{
+    width: 1132;
+    height: 74;
+    top: 74;
+    left: 24;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div-plan{
+    width: 377px;
+    height: 74px;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 16px;
+    padding: 24px;
+}
+.text-truck{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div-button-suscribite{
+    width: 1180px;
+    height: 81px;
+    border-top: 1px solid #EDEDED;
+}
+.button-suscribite{
+    width: 123px;
+    height: 48px;
+    top: 17px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background-color: #3483FA;
+    border-color: transparent;
+    margin: 16px;
+    margin-left: 1026px;
+}
