@@ -170,16 +170,17 @@ main{
     border-radius: 4px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .div-button-pay{
-    width: 305px;
+    width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: start;
-    padding: 20px;
+    gap: 10px;
+    padding: 15px;
 }
 .div-pay-text{
     display: flex;
@@ -198,8 +199,81 @@ main{
     font-style: normal;
     font-size: 13px;
     line-height: 15px;
-    align-items:center;
+    align-items:end;
     color: #3483FA;
 }
+.div-ofertas{
+    display: flex;
+    justify-content:start;
+    align-items: end ;
+    gap: 16px;
+    padding: 21px;
+}
+.text-one{
+    font-family:'Roboto';
+    font-style: light;
+    font-size: 25px;
+    line-height: 31px;
+    align-items:start;
+}
+.text-two{
+    font-family:'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #3483FA;
+}
+.div-cards{
+    width: 1200px;
+    height: 415 px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div-card{
+    background-color: #FFFFFF;
+}
+.div-card-precio{
+    width: 224px;
+    height: 130px;
+    top: 224px;
+    display: flex;
+    flex-direction: column;
+    padding: 19px 16px;
+    gap: 5px;
+}
+.div-precio{
+    width: 170px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+.text-card-one{
+    font-family:'Roboto';
+    font-style: normal;
+    font-size: 23px;
+    line-height: 24px;
+    align-items:start;
+    color: #333333;
 
+}
+.text-card-two{
+    font-family:'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #00A650;
+    align-items: center;
+}
+.text-card-three{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 13px;
+    line-height: 16px;
+    align-items:start;
+    color: #00A650;
+}
 
