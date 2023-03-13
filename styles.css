@@ -141,16 +141,21 @@ main{
     gap: 40px;
 }  
 .div-novedades{
-    display: inline-block;
+    height: 340px;
+    width: 1512px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-image: url("/MercadoLibre/media/images/Novedades.png");
 }  
 .div-buttons-novedades{
-    position: absolute;
     top: 410px;
     left: 727px;
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:end;
     gap: 5px;
+    padding-top: 318px;
 }
 .buttons-novedades{
     width: 6px;
@@ -586,6 +591,7 @@ main{
     left: 102px;
     border-radius: 8px;
     background-color: #FFFFFF;
+    
 }
 .title-store{
     font-family: Roboto;
@@ -594,6 +600,7 @@ main{
     line-height: 27px;
     letter-spacing: 0em;
     text-align: center;
+    margin-top: 16px;
 }
 .div-images{
     height: 74px;
@@ -605,6 +612,8 @@ main{
     flex-direction: row;
     padding-left: 31px;
     gap: 7px;
+    margin-top: 20px;
+    margin-block-end: 22px;
 }
 .text-store{
     font-family: Roboto;
@@ -614,6 +623,7 @@ main{
     letter-spacing: 0em;
     text-align: center;
     padding-top: 22px;
+    color: #999999;
 }
 .image{
     height: 70px;
@@ -622,4 +632,89 @@ main{
     top: 3px;
     border-radius: 8px;
     border: 1px solid #EEEEEE;
+}
+.cat-supermaker{
+    width: 193px;
+    height: 33px;
+    left: 151.875px;
+    top: 1px;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 2px 0px 0px 0px;
+    gap: 8px;
+}
+.letter-cat{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666666;
+}
+.div-supermaker{
+    width: 1200px;
+    height: 482px;
+}
+.div-products{
+    height: 382px;
+    width: 1200px;
+    left: 156px;
+    top: 2709.6875px;
+    display: flex;
+    gap: 16px;
+}
+.prod-1{
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+.image-rad{
+    border-top-right-radius:4px;
+    border-top-left-radius: 4px;
+}
+.div-p2{
+    height: 99px;
+    width: 383px;
+    left: 0px;
+    top: 285px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+.text-desc{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 4px;
+    text-align: left;
+    color: #4B4B4B;
+}
+.text-sp{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4B4B4B;
+}
+.prod-2{
+    height: 400px;
+    width: 800px;
+    left: 391px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+.div-categorias{
+    height: 473.1875px;
+    width: 1200px;
+    left: 148px;
+    top: 3131.6875px;
+    border-radius: 0px;
+
 }
