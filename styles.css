@@ -404,3 +404,82 @@ main{
     margin: 16px;
     margin-left: 1026px;
 }
+.beneficios{
+    width: 1200px;
+    height: 266px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.div-beneficios1{
+    width: 384px;
+    height: 250px;
+    left: 8px;
+    border-radius: 6px;
+    background-image: url("/MercadoLibre/media/images/Widget_Multicontent_Latam_768-x-566px.jpg.png");
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.div-beneficios2{
+    width: 384px;
+    height: 250px;
+    left: 8px;
+    border-radius: 6px;
+    background-image: url("/MercadoLibre/media/images/HBOMax.png");
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.div-beneficios3{
+    width: 384px;
+    height: 250px;
+    left: 8px;
+    border-radius: 6px;
+    background-image: url("/MercadoLibre/media/images/paramount.png");
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.card-beneficios{
+    width: 384px;
+    left: 112px;
+    top: 138px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+}
+.div-ben{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-b1{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 22px;
+    line-height: 23px;
+    align-items:center;
+    color: #FFFFFF;
+    
+}
+.text-b2{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight:400;
+    font-size: 17px;
+    line-height: 20px;
+    align-items:center;
+    color: #FFFFFF;
+}
+.text-b3{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight:600;
+    font-size: 11px;
+    line-height: 16px;
+    align-items:center;
+    color: #FFFFFF;
+}
