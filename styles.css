@@ -207,7 +207,8 @@ main{
     justify-content:start;
     align-items: end ;
     gap: 16px;
-    padding: 21px;
+    margin-block-end: 21px;
+    margin-block-start: 21px;
 }
 .text-one{
     font-family:'Roboto';
@@ -215,6 +216,7 @@ main{
     font-size: 25px;
     line-height: 31px;
     align-items:start;
+    padding-left: 0%;
 }
 .text-two{
     font-family:'Roboto';
@@ -463,7 +465,6 @@ main{
     line-height: 23px;
     align-items:center;
     color: #FFFFFF;
-    
 }
 .text-b2{
     font-family:'Roboto';
@@ -482,4 +483,143 @@ main{
     line-height: 16px;
     align-items:center;
     color: #FFFFFF;
+}
+.div-descubre{
+    width: 1200px;
+    height: 398px;
+    top: 1759px;
+    left: 759px;
+}
+.news{
+    width: 1200px;
+    height: 265px;
+    top: 93px;
+    display: flex;
+    gap: 15px;
+}
+.card-news{
+    width: 584px;
+    height: 250px;
+    left: 8px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.titles-news{
+    width: 287px;
+    height: 198px;
+    top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 32px;
+    margin-right: 19px;
+}
+.text-n1{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight:600;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 4px;
+    align-items:center;
+    color: #4B4B4B;
+    margin-block-end: 11px;
+}
+.text-n2{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight:600;
+    font-size: 28px;
+    line-height: 30px;
+    align-items:center;
+    color: #4B4B4B;
+}
+.button-news{
+    height: 36px;
+    width: 96px;
+    left: 32px;
+    top: 130.59375px;
+    border-radius: 2px;
+    color: #FFFFFF;
+    background-color: #3483FA;
+    border-color: transparent;
+    margin-block-start: 13px;
+}
+.div-stores{
+    width: 1200px;
+    height: 505px;
+    left: 156px;
+}
+.stores{
+    width: 1200px;
+    height: 356px;
+    left: 93px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.card-store{
+    width: 284px;
+    height: 340px;
+    left: 8px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-block-end: 20px;
+}
+.div-banner{
+    width: 284px;
+    height: 95px;
+}
+.div-logo{
+    width: 80px;
+    height: 80px;
+    top: 55px;
+    left: 102px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.title-store{
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.div-images{
+    height: 74px;
+    width: 284px;
+    left: 0px;
+    top: 202px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 31px;
+    gap: 7px;
+}
+.text-store{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 22px;
+}
+.image{
+    height: 70px;
+    width: 70px;
+    left: 31px;
+    top: 3px;
+    border-radius: 8px;
+    border: 1px solid #EEEEEE;
 }
